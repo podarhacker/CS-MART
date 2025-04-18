@@ -1,0 +1,36 @@
+body { 
+  background-image: url('background.jpg'); /<em> Path to your background image </em>/ 
+  background-size: cover; /<em> Cover the entire body </em>/ 
+  background-repeat: no-repeat; /<em> Prevent image repetition </em>/ 
+  margin: 0; /<em> Remove default body margins </em>/ 
+  font-family: sans-serif; /<em> Add a default font </em>/ 
+  color: white; /<em> Default text color </em>/ 
+} 
+h1 { 
+  color: red; 
+  font-size: 300%; 
+  text-align: center; 
+  margin-bottom: 20px; /<em> Add some spacing </em>/ 
+} 
+.container { 
+  display: flex; /<em> Use flexbox for easy two-column layout </em>/ 
+  height: 100vh; /<em> Occupy full viewport height </em>/ 
+} 
+.left-column { 
+  width: 50%; 
+  padding: 20px; 
+  box-sizing: border-box; /<em> Include padding in element width </em>/ 
+} 
+.right-column { 
+  width: 50%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+  text-align: right; /<em> Align text to the right </em>/ 
+} 
+p.white-text { 
+  font-size: 150%; 
+} 
+p.light-blue-text { 
+  color: #6ff3f7; 
+  font-size: 250%; 
+} 

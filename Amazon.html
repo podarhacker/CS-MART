@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Spring Deals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            padding: 15px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .discount {
+            background-color: #e91e63;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .claim-bar {
+            background-color: #ddd;
+            border-radius: 5px;
+            margin: 5px 0;
+            height: 10px;
+            position: relative;
+        }
+        .claim-progress {
+            background-color: #4caf50;
+            height: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="discount">20% off</div>
+            <img src="bag.jpg" alt="Luxury Bag">
+            <div class="title">Get 20% off select pre-loved luxury</div>
+        </div>
+        <div class="card">
+            <div class="discount">31% off</div>
+            <img src="whitestrips.jpg" alt="Crest 3D Whitestrips">
+            <div class="title">Crest 3D Whitestrips Professional Effects</div>
+        </div>
+        <div class="card">
+            <div class="discount">15% off</div>
+            <img src="tower_fan.jpg" alt="Dreo Tower Fan">
+            <div class="title">Dreo Tower Fan for Bedroom</div>
+            <div class="claim-bar"><div class="claim-progress" style="width: 15%;"></div></div>
+        </div>
+        <div class="card">
+            <div class="discount">20% off</div>
+            <img src="air_purifier.jpg" alt="Coway Airmega HEPA Purifier">
+            <div class="title">Coway Airmega AP-1512HH(W) True HEPA Purifier</div>
+            <div class="claim-bar"><div class="claim-progress" style="width: 41%;"></div></div>
+        </div>
+    </div>
+</body>
+</html>
